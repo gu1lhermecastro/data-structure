@@ -29,6 +29,7 @@ public class Program {
 			if (arr[i] == num) {
 				localized = true;
 				position = i;
+				break;
 			}
 		}
 		if (localized == true)
